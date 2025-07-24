@@ -1,25 +1,42 @@
-# 📊 Birthday Paradox – Statistics 110 Projects
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
 
-This repository contains Python implementations related to the **Birthday Paradox**, inspired by *Statistics 110: Introduction to Probability* by Harvard University (Prof. Joe Blitzstein).
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-## 🔢 Files
+# Ignore system files
+.DS_Store
+Thumbs.db
 
-- `birthday_paradox_probability.py`  
-  A Python script that takes `k` as input (number of people in a room) and prints the probability that at least two share a birthday.
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
 
-- `birthday_paradox_plot.py`  
-  A script that plots the probability of shared birthdays as `k` increases (e.g., from 1 to 100 people).
+# Ignore logs and temporary files
+*.log
+*.tmp
 
-## 📈 Concepts Demonstrated
+# Ignore VS Code workspace settings (optional)
+.vscode/
+*.code-workspace
 
-- Basic combinatorics
-- Probability theory
-- Visualization using `matplotlib`
+# Ignore notebook metadata (optional but useful in some cases)
+*.nbmetadata
 
-## 🎓 About the Course
+# Ignore compiled files
+*.so
+*.out
+*.o
 
-I'm self-studying Harvard's [Statistics 110](https://projects.iq.harvard.edu/stat110) to build a strong foundation in probability, which is essential for my path in **quantitative finance and data science**.
-
-## 📌 License
-
-This project is open for educational use.
+# Ignore test coverage
+htmlcov/
+*.cover
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.lcov
