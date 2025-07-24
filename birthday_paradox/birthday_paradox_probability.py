@@ -7,4 +7,4 @@ for i in range(k):
         #print(multipl)
 
 p_occ = 1- (multipl/(365**k))
-print("Probability of occuring is "+str(100*p_occ))
+print("Probability of occuring is "+str(100*p_occ)+"%")
