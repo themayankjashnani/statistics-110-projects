@@ -10,8 +10,8 @@ for j in range(366):
                 #print(i)
                 multipl = multipl*(365-i)
                 #print(multipl)
-                print(i)
-                print(j)
+                #print(i)
+                #print(j)
                 
                 if int(i)==int(j): 
                         if i == 0 :
